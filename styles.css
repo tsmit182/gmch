@@ -130,8 +130,13 @@ footer {
 	margin: 0 auto;
 	margin-top: 5%;
 	border-radius: 10px 10px 10px 10px;
+	background-repeat: no-repeat;
 }
 
 #plan1 {
 
+}
+
+#planBlock4{
+	background-image: url(http://hydra-media.cursecdn.com/minecraft.gamepedia.com/4/40/Block_of_Diamond.png?version=9807ea1bc0c6acfff640e95aeb340913);
 }
