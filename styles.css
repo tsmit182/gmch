@@ -99,5 +99,39 @@ footer {
 	font-size: 15px;
 	padding-top: 1%;
 	padding-left: 5%;
-	font-align: center;
+}
+
+/* Stylings for the game servers sales page */
+
+.plans {
+	display: inline-block;
+	width: 23%;
+	height: 100%;
+	background-color: #808080;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 1.5%;
+
+}
+
+.plans h4 {
+	padding-left: 25%;
+	color: white;
+}
+
+.plans p {
+	padding-left: 15%;
+	color: white;
+}
+
+.planBlock {
+	background-color: black;
+	width: 80%;
+	height: 175px;
+	margin: 0 auto;
+	margin-top: 5%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#plan1 {
+
 }
