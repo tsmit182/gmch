@@ -23,7 +23,24 @@
 		<a class="link" href="contact.html">Contact Us</a><br />
 	</div>
 	<div id="content">
-			<p><i>This is the contact page.</i></p>
+<!-- 			<i><h2> E-mail Support and Contact form</h2></i>	<br/>
+		<p>Please use the following for to contact form for any support inquiries:</p> -->
+
+<!-- Begin PHP FORM code -->
+
+<form class="email" action="mailer.php" method="post">
+<p>Minecraft Username:</p>
+<input type="text" name="name" />
+<p>E-mail Adress:</p>
+<input type="text" name="email" />
+<p>Subject:</p>
+<input type="text" name="subject" />
+<p>Message:</p>
+<textarea name="message"></textarea></p>
+<input class="send" type="submit" value="Send">
+</form>
+
+<!-- END PHP FORM code -->
 	</div>
 	<div id="feed">
 		<br /><br /><br />
