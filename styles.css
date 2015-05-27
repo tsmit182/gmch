@@ -80,14 +80,28 @@ a {
 	border-radius: 10px 0px 10px 10px;
 }
 
-#pictureContent {
+#pictureContainer {
 	width: 40%;
 	height: 100%;
 	float: left;
-	background-color: #808080;
+	background-color: #000000;
 	margin-right: 2%;
 	border-radius: 10px 10px 10px 10px;
 	border: 5px solid #808080;
+}
+
+#pic1 {
+	width: 98%;
+	height: 48%;
+	background-color: grey;
+	margin-bottom: 1%;
+}
+
+#pic2{
+	width: 98%;
+	height: 48%;
+	background-color: grey;
+	margin-top: 1%;
 }
 
 #textContent {
