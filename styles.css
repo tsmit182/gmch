@@ -95,6 +95,8 @@ a {
 	height: 48%;
 	background-color: grey;
 	margin-bottom: 1%;
+	background-image: url("IMG_0028.JPG");
+	background-size: cover;
 }
 
 #pic2{
@@ -104,12 +106,22 @@ a {
 	margin-top: 1%;
 }
 
-#textContent {
+#textContainer {
 	width: 55%;
 	height: 100%;
 	float: right;
 	background-color: #808080;
+	background-color: black;
 	border-radius: 10px 10px 10px 10px;
+}
+
+#text1{
+	height: 40%;
+}
+
+#text2{
+	margin: 1% 5% 2% 5%;
+	height: 40%;
 }
 
 #feed {
