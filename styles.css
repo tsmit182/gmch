@@ -198,21 +198,23 @@ footer {
 
 .plans {
 	display: inline-block;
-	width: 23%;
+	width: 22%;
 	height: 100%;
 	background-color: #808080;
 	border-radius: 10px 10px 10px 10px;
 	margin-left: 1.5%;
+	border: 2px inset #313131;
 
 }
 
 .plans h4 {
 	padding-left: 25%;
+	padding-right: 7%;
 	color: white;
 }
 
 .plans p {
-	padding-left: 15%;
+	padding-left: 0% 15% 5%;
 	color: white;
 }
 
@@ -222,6 +224,7 @@ footer {
 	height: 175px;
 	margin: 0 auto;
 	margin-top: 5%;
+	border: 2px inset #313131;
 	border-radius: 10px 10px 10px 10px;
 	background-repeat: no-repeat;
 }
