@@ -22,13 +22,13 @@
 		<a class="link" href="contact.html">Support</a><br />
 		<a class="link" href="contact.html">Contact Us</a><br />
 	</div>
-	<div id="content">
+	<div id="content" class="contactContent">
 <!-- 			<i><h2> E-mail Support and Contact form</h2></i>	<br/>
 		<p>Please use the following for to contact form for any support inquiries:</p> -->
 
 <!-- Begin PHP FORM code -->
 
-<form class="email" action="mailer.php" method="post">
+<!-- <form class="email" action="mailer.php" method="post">
 <p>Minecraft Username:</p>
 <input type="text" name="name" />
 <p>E-mail Adress:</p>
@@ -38,11 +38,30 @@
 <p>Message:</p>
 <textarea name="message"></textarea></p>
 <input class="send" type="submit" value="Send">
-</form>
+</form> -->
+
+		<form method="post" action="mailer.php">
+		<label for="userName">Minecraft username:</label>
+		<input type="text" name="userName" required="required">
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<label for="email">Email Address:</label>
+		<input type="email" name="email" required="required">
+		<br><br>
+		<label for="subject">Subject:</label>
+		<textarea name="subject"></textarea>
+		<br>
+		<br>
+		<label for="content">Message Content:</label>
+		<textarea name="content" required="required" placeholder="Your message goes here"></textarea>
+		<br>
+		<input id="mySubmit" type="submit" value="Send Now">
+		<input id="myReset" type="reset" value="Reset">
+		</form>
 
 <!-- END PHP FORM code -->
 	</div>
-	<div id="feed">
+	<div id="feed" class="contactFeed">
 
 		<br /><br /><br />
 		<h3>Feed Content</h3><p>Advertise For Your Server Here!</p>
