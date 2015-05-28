@@ -1,11 +1,23 @@
 body {
 	font-family: helvetica;
 /*	get thee a font from google fonts */
-	background-color: #000000;
+	background-color: #313131;
+	background-image: url(images/subtlepatterns/grey_wash_wall.png);
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
 }
 
 #wrapper {
 	background-color: #808080;
+	background-image: url(images/subtlepatterns/grey_wash_wall.png);
+	background-image: url(images/subtlepatterns/concrete_seamless.png);
+	border: 2px solid black;
 	margin: 0% 2% 0% 4%;
 	border-radius: 10px;
 	overflow: hidden;
@@ -36,6 +48,8 @@ body {
 	padding-right: 1.65%;
 	overflow: none;
 	background-color: black;
+	background-color: #313131;
+	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
 	border-radius: 10px 10px 10px 0px;
 	font-size: 0.95em;
 
@@ -76,8 +90,29 @@ a {
 	padding: 2% 3% 2% 2%;
 	overflow: auto;
 	background-color: black;
+	background-color: #313131;
+	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
 	color: #f38b33;
 	border-radius: 10px 0px 10px 10px;
+}
+
+.contentBlock {
+	background-color: #d8d8d8;
+	background-image: url(images/subtlepatterns/concrete_seamless.png);
+	color: black;
+	border: 3px inset white;
+	width: 95%;
+	margin: 2% 2% 2% 3%;
+	padding: 3px;
+	overflow: auto;
+}
+
+.contentBlock h1 {
+	font-weight: bold;
+}
+
+.contentBlock h5 {
+	font-weight: bold;
 }
 
 #pictureContainer {
@@ -105,7 +140,7 @@ a {
 	height: 48%;
 	background-color: grey;
 	margin-top: 1%;
-	background-image: url("images/");
+	background-image: url("https://scontent-atl1-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/560558_10100837190355843_1369115026_n.jpg?oh=4fb0f686e0a6cd08ca8c2882a4ce05e5&oe=560D3485");
 	background-size: cover;
 }
 
@@ -113,12 +148,12 @@ a {
 	width: 55%;
 	height: 100%;
 	float: right;
-	background-color: #808080;
-	background-color: black;
+	border: 2px inset #313131;
 	border-radius: 10px 10px 10px 10px;
 }
 
 #text1{
+	margin: 1% 5% 2% 5%;
 	height: 40%;
 }
 
@@ -137,8 +172,14 @@ a {
 	padding: 1.83% 1.83% 2.1% 1.5%;
 	overflow: auto;
 	background-color: black;
+	background-color: #313131;
+	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
 	color: #f38b33;
 	border-radius: 0px 10px 10px 10px;
+}
+
+#feed h3, h4 {
+	text-align: right;
 }
 
 footer {
