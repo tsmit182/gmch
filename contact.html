@@ -21,45 +21,28 @@
 		<a class="link" href="contact.html">Support</a><br />
 		<a class="link" href="contact.html">Contact Us</a><br />
 	</div>
-	<div id="content" class="contactContent">
-<!-- 			<i><h2> E-mail Support and Contact form</h2></i>	<br/>
-		<p>Please use the following for to contact form for any support inquiries:</p> -->
-
-<!-- Begin PHP FORM code -->
-
-<!-- <form class="email" action="mailer.php" method="post">
-<p>Minecraft Username:</p>
-<input type="text" name="name" />
-<p>E-mail Adress:</p>
-<input type="text" name="email" />
-<p>Subject:</p>
-<input type="text" name="subject" />
-<p>Message:</p>
-<textarea name="message"></textarea></p>
-<input class="send" type="submit" value="Send">
-</form> -->
-
-		<form method="post" action="mailer.php">
-			<label for="name">Minecraft username:</label>
-			<input type="text" name="name" required="required">
-
-			&nbsp;&nbsp;&nbsp;&nbsp;
-			<label for="email">Email Address:</label>
-			<input type="email" name="email" required="required">
-			<br><br>
-			<label for="subject">Subject:</label>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<textarea name="subject" style="margin-left: 30px"></textarea>
-			<br>
-			<br>
-			<label for="message">Message Content:</label>
-			<textarea name="message" required="required" placeholder="Your message goes here"></textarea>
-			<br>
-			<input id="mySubmit" type="submit" value="Send Now">
-			<input id="myReset" type="reset" value="Reset">
-		</form>
-
-<!-- END PHP FORM code -->
+	<div id="content">
+		<div class="contentBlock">
+			<h3>Please use the following contact form for any support or sale inquires:</h3><hr>
+			<form method="post" action="mailer.php">
+				<label for="name">Minecraft username:</label>
+				<input type="text" name="name" required="required">
+				<br><br>		
+				<label for="email">Email Address:</label>
+				<input type="email" name="email" required="required">
+				<br><br>
+				<label for="subject">Subject:</label><br>		
+				<textarea name="subject" required="required" rows="1" cols="50"></textarea>
+				<br>
+				<br>
+				<label for="message">Message Content:</label>
+				<br>
+				<textarea name="message" required="required" rows="15" cols="55" placeholder="Your message goes here"></textarea>
+				<br>
+				<input id="mySubmit" type="submit" value="Send Now">
+				<input id="myReset" type="reset" value="Reset">
+			</form>
+		</div>
 	</div>
 	<div id="feed" class="contactFeed">
 
