@@ -29,7 +29,6 @@ a:hover {
 }
 
 #logo {
-	
 	border: 5px solid #000000;
 	width: 79%; 
 	height: 225px;
@@ -110,10 +109,16 @@ a {
 	background-image: url(images/subtlepatterns/concrete_seamless.png);
 	color: black;
 	border: 3px inset white;
+	border-radius: 10px 10px 10px 10px;
 	width: 95%;
 	margin: 2% 2% 2% 3%;
 	padding: 3px;
 	overflow: auto;
+}
+
+.contentBlock p {
+	margin-right: 4%;
+	margin-left: 1%;
 }
 
 .contentBlock a {
@@ -138,11 +143,12 @@ a {
 	width: 38%;
 	height: 100%;
 	float: left;
-	background-color: #000000;
+/*	background-color: #000000;*/
 	margin-right: 2%;
 	border-radius: 10px 10px 10px 10px;
 	border: 5px solid #808080;
-	border: 2px inset #313131;
+	border: 3px solid #313131;
+	border: 3px solid black;
 	padding: 1%;
 }
 
@@ -168,7 +174,8 @@ a {
 	width: 55%;
 	height: 100%;
 	float: right;
-	border: 2px inset #313131;
+	border: 3px solid #313131;
+	border: 3px solid black;
 	border-radius: 10px 10px 10px 10px;
 }
 
@@ -179,7 +186,7 @@ a {
 
 #text2{
 	margin: 1% 5% 2% 5%;
-	height: 46%;
+	height: 47%;
 }
 
 #feed {
@@ -237,6 +244,7 @@ footer {
 .plans p {
 	padding-left: 0% 15% 5%;
 	color: white;
+	margin-left: 5%;
 }
 
 .planBlock {
