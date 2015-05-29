@@ -230,12 +230,21 @@ footer {
 	border: 2px inset #313131;
 	border-radius: 10px 10px 10px 10px;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
-#plan1 {
+#planBlock1 {
+	background-image: url(images/blocks/Dirt.png)
+}
 
+#planBlock2 {
+	background-image: url(images/blocks/Stone.png);
+}
+
+#planBlock3 {
+	background-image: url(images/blocks/Iron.png);
 }
 
 #planBlock4{
-	background-image: url(http://hydra-media.cursecdn.com/minecraft.gamepedia.com/4/40/Block_of_Diamond.png?version=9807ea1bc0c6acfff640e95aeb340913);
+	background-image: url(images/blocks/Diamond.png);
 }
