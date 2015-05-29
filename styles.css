@@ -251,6 +251,10 @@ footer {
 	background-position: center;
 }
 
+.payButton{
+	text-align: center;
+}
+
 #planBlock1 {
 	background-image: url(images/blocks/Dirt.png)
 }

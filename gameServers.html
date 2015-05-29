@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 	<div id="wrapper">
 		
 	<div id="logo">
@@ -38,9 +39,12 @@ recommend five gigs per one player -->
 					<li>1GBPS Anti-DDOS protection</li>
 					<li>No disk space limitations</li>
 					<li>24/7/365 email support</li>
-					<li>Custom .jar/server migration for a one-time fee of $2</li>
-					<li> Need more? Only $4 per every GB after 4096MB!</li>
-					<li>.50/m per 10 players added (past stock set)</li>
+				</ul>
+				<ul>
+					<li>Custom .jar/server migration for a one-time fee of $5</li>
+					<li>$3/month for a dedicated IP address (required for domain forwarding- ex. <span>play.server.com</span>)</li>
+					<li> Need more? Only $4/month per every GB after 4096MB!</li>
+					<li>$0.50/month per 10 players added (past stock set)</li>
 				</ul>
 			</div>
 			<div class="plans" id="plan1">
@@ -54,24 +58,38 @@ recommend five gigs per one player -->
 				<p>Custom jar/Server Migration for one-time $2</p>
 				<p></p> -->
 					<p>This plan is for 1024 megabytes of server space and is recommended for one to five players.</p>
+						<!-- INFO: The post URL "checkout.php" is invoked when clicked on "Pay with PayPal" button.-->
+
+<form class="payButton" action='checkout.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form>
 					<p>Priced at $5 per month.</p>
 			</div>
 			<div class="plans" id="plan2">
 				<div class="planBlock" id="planBlock2"></div>
 				<h4>2048MB</h4>
 				<p>This plan is for 2048 megabytes of server space and is recommended for five to ten players.</p>
+<form class="payButton" action='checkout2.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form>
 				<p>Priced at $10 per month.</p>
 			</div>
 			<div class="plans" id="plan3">
 				<div class="planBlock" id="planBlock3"></div>
 				<h4>3072MB</h4>
 				<p>This plan is for 3072 megabytes of server space and is recommended for ten to twenty players.</p>
+<form class="payButton" action='checkout3.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form>
 				<p>Priced at $15 per month.</p>
 			</div>
 			<div class="plans" id="plan4">
 				<div class="planBlock" id="planBlock4"></div>
 				<h4>4096MB</h4>
 				<p>This plan is for 4096 megabytes of server space and is recommended for twenty to thirty players.</p>
+<form class="payButton" action='checkout4.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form>
 				<p>Priced at $20 per month.</p>
 			</div>
 	</div>
@@ -91,5 +109,21 @@ recommend five gigs per one player -->
 
 	</div>
 <footer>&copy; Copyright Generic Minecraft Hosting 2015</footer>
+	<!-- Add Digital goods in-context experience. Ensure that this script is added before the closing of html body tag -->
+
+<script src='https://www.paypalobjects.com/js/external/dg.js' type='text/javascript'></script>
+
+
+<script>
+
+	var dg = new PAYPAL.apps.DGFlow(
+	{
+		trigger: 'paypal_submit',
+		expType: 'instant'
+		 //PayPal will decide the experience type for the buyer based on his/her 'Remember me on your computer' option.
+	});
+
+</script>
+
 </body>
 </html>
