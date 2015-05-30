@@ -228,7 +228,10 @@ footer {
 }
 
 /*contact form stylings*/
-/*-- none for now */
+
+.textInput {
+	width: 30%;
+}
 
 /* Stylings for the game servers sales page */
 
