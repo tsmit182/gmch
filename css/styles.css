@@ -2,7 +2,7 @@ body {
 	font-family: helvetica;
 /*	get thee a font from google fonts */
 	background-color: #313131;
-	background-image: url(images/subtlepatterns/grey_wash_wall.png);
+	background-image: url(../images/subtlepatterns/grey_wash_wall.png);
 }
 
 a:link {
@@ -19,7 +19,7 @@ a:hover {
 
 #wrapper {
 	background-color: #808080;
-	background-image: url(images/subtlepatterns/grey_wash_wall.png);
+	background-image: url(../images/subtlepatterns/grey_wash_wall.png);
 /*	background-image: url(images/subtlepatterns/concrete_seamless.png);
 	border: 2px solid black;*/
 	margin: 0% 2% 0% 4%;
@@ -34,7 +34,7 @@ a:hover {
 	height: 225px;
 	display: inline-block;
 	margin: 0.5% 0.25% 0.25% 0.5%;
-	background-image: url(images/newLogo.jpeg);
+	background-image: url(../images/newLogo.jpeg);
 	border-radius: 10px 10px 0px 10px;
 	background-size: cover;
 
@@ -53,7 +53,7 @@ a:hover {
 	overflow: none;
 	background-color: black;
 	background-color: #313131;
-	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
+	background-image: url(../images/subtlepatterns/binding_dark_@2X.png);
 	border-radius: 10px 10px 10px 0px;
 	font-size: 0.87em;
 }
@@ -98,14 +98,14 @@ a {
 	overflow: auto;
 	background-color: black;
 	background-color: #313131;
-	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
+	background-image: url(../images/subtlepatterns/binding_dark_@2X.png);
 	color: #f38b33;
 	border-radius: 10px 0px 10px 10px;
 }
 
 .contentBlock {
 	background-color: #d8d8d8;
-	background-image: url(images/subtlepatterns/concrete_seamless.png);
+	background-image: url(../images/subtlepatterns/concrete_seamless.png);
 	color: black;
 	border: 3px inset white;
 	border-radius: 10px 10px 10px 10px;
@@ -167,7 +167,7 @@ a {
 	height: 48%;
 	background-color: grey;
 	margin-bottom: 1%;
-	background-image: url("images/IMG_0028.JPG");
+	background-image: url("../images/IMG_0028.JPG");
 	background-size: cover;
 }
 
@@ -211,7 +211,7 @@ a {
 	overflow: auto;
 	background-color: black;
 	background-color: #313131;
-	background-image: url(images/subtlepatterns/binding_dark_@2X.png);
+	background-image: url(../images/subtlepatterns/binding_dark_@2X.png);
 	color: #f38b33;
 	border-radius: 0px 10px 10px 10px;
 }
@@ -279,17 +279,17 @@ footer {
 }
 
 #planBlock1 {
-	background-image: url(images/blocks/Dirt.png)
+	background-image: url(../images/blocks/Dirt.png)
 }
 
 #planBlock2 {
-	background-image: url(images/blocks/Stone.png);
+	background-image: url(../images/blocks/Stone.png);
 }
 
 #planBlock3 {
-	background-image: url(images/blocks/Iron.png);
+	background-image: url(../images/blocks/Iron.png);
 }
 
 #planBlock4{
-	background-image: url(images/blocks/Diamond.png);
+	background-image: url(../images/blocks/Diamond.png);
 }
