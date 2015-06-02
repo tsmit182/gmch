@@ -14,28 +14,180 @@
 		
 	<div id="logo"></div>
 	<div id="links">
-		<a class="link" id="topLink" href="index.html">Home</a><br />
-		<a class="link" href="about.html">About GMCH</a><br />
-		<a class="link" href="voiceServers.html">Voice Servers</a><br />
-		<a class="link" href="gameServers.html">Game Servers</a><br />
-		<a class="link" href="contact.html">Support</a><br />
-		<a class="link" href="contact.html">Contact Us</a><br />
+		<a class="link" id="homeLink" href="index.html">Home</a><br />
+		<a class="link" id="aboutLink" href="about.html">About GMCH</a><br />
+		<a class="link" id="voiceLink" href="voiceServers.html">Voice Servers</a><br />
+		<a class="link" id="gameLink" href="gameServers.html">Game Servers</a><br />
+		<a class="link" id="supportLink" href="contact.html">Support</a><br />
+		<a class="link" id="contactLink" href="contact.html">Contact Us</a><br />
 	</div>
 <!-- MAIN CONTENT BLOCK BEGINS -->
 	<!-- content for Home -->
-	<div id="content">
-		<div class="contentBlock">
-			<h1>Welcome!</h1> <hr>
-			<p>Thanks for checking out Generic Minecraft Hosting! We aim to provide you with affordable and reliable hosting for your Minecraft server. Check out our <a href="gameServers.html">game servers</a> page to see some of the services that we have available. Right now we don't have any <a href="voiceServers.html">voice server</a> options, but we'll be offering them soon! You can also learn a little bit more <a href="about.html">about us</a>, or you can also <a href="contact.html">get in touch with us</a> if you have any questions or feedback!</p>
-			<p>We'll be updating the site fairly often here in our infancy, so make sure you keep track of us!</p>
-			<h5>May 29, 2015</h5>
+	<div id="chunkHome">
+		<div class="content">
+			<div class="contentBlock">
+				<h1>Welcome!</h1> <hr>
+				<p>Thanks for checking out Generic Minecraft Hosting! We aim to provide you with affordable and reliable hosting for your Minecraft server. Check out our <a href="gameServers.html">game servers</a> page to see some of the services that we have available. Right now we don't have any <a href="voiceServers.html">voice server</a> options, but we'll be offering them soon! You can also learn a little bit more <a href="about.html">about us</a>, or you can also <a href="contact.html">get in touch with us</a> if you have any questions or feedback!</p>
+				<p>We'll be updating the site fairly often here in our infancy, so make sure you keep track of us!</p>
+				<h5>May 29, 2015</h5>
+			</div>
 		</div>
 	</div>
 	<!-- content for About -->
+	<div id="chunkAbout">
+		<div class="content">
+		<div id="pictureContainer">
+			<div id="pic1"></div>
+			<hr>
+			<div id="pic2"></div>
+		</div>
+		<div id="textContainer">
+			<div id="text1"><h4>Justin</h4><p>is head honcho numero uno here at GMCH. He has previous longterm experience running Minecraft server hosting, knows a boat-load about motorcycles, and likes ponies.</p></div> 
+			<hr>
+			<div id="text2"><h4>Taylor</h4><p>is a budding web developer. Little else is known about this mysterious figure.</p></div>
+		</div>
+	</div>
+	</div>
 	<!-- content for Voice Servers -->
+	<div id="chunkVoice">
+		<div class="content">
+			<div class="contentBlock">
+				<p>Voice-server hosting is not currently available. However, our projections indicate that we will be offering it within the next few months. Please keep an eye on the site for more info!</p>
+				<p> Thanks,<br>
+				Justin<br>
+				Owner<br>
+				<a href="http://gmch.us/"> GMCH.US </a> </p>
+				<p>May 29, 2015</p>
+			</div>
+		</div>
+	</div>
 	<!-- content for Game Servers -->
-	<!-- content for Support/Contact -->
+	<div id="chunkGame">
+		<div class="content">
+			<!-- {Image} <br/>
+<h2> 1GB Server </h2><br/> < /-possibly  <hr>-/ >
+Multicraft Control Panel Included!<br/>
+1024 MB DEDICATED RAM <br/>
+1GBPS Anti-DDOS protection<br/>
+No Disk space Limitations<br/>
+24/7/365 E-mail Support<br/> 
+Custom jar/Server Migration for one-time $2<br/>
+recommend five gigs per one player -->
+			<div id="planHeader">
+				<p>All server plans will include:</p>
+				<ul>
+					<li>Multicraft Control Panel</li>
+					<li>1GBPS Anti-DDOS protection</li>
+					<li>No disk space limitations</li>
+					<li>24/7/365 email support</li>
+				</ul>
+				<ul>
+					<li>Custom .jar/server migration for a one-time fee of $5</li>
+					<li>$3/month for a dedicated IP address (required for domain forwarding- ex. <span>play.server.com</span>)</li>
+					<li> Need more? Only $4/month per every GB after 4096MB!</li>
+					<li>$0.50/month per 10 players added (past stock set)</li>
+				</ul>
+			</div>
+			<div class="plans" id="plan1">
+				<div class="planBlock" id="planBlock1"></div>
+				<h4>1024MB</h4>
+<!-- 				<p></p>
+				<p>1024 MB Dedicated RAM</p>
+				<p>1GBPS Anti-DDOS protection</p>
+				<p>No disk space limitations</p>
+				<p>24/7/365 email support</p>
+				<p>Custom jar/Server Migration for one-time $2</p>
+				<p></p> -->
+					<p>This plan is for 1024 megabytes of server space and is recommended for one to five players.</p>
+						<!-- INFO: The post URL "checkout.php" is invoked when clicked on "Pay with PayPal" button.-->
 
+<!-- <form class="payButton" action='checkout.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form> -->
+<form class="payButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="UWAU39V7ZTKCW">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+					<p>Priced at $5 per month.</p>
+			</div>
+			<div class="plans" id="plan2">
+				<div class="planBlock" id="planBlock2"></div>
+				<h4>2048MB</h4>
+				<p>This plan is for 2048 megabytes of server space and is recommended for five to ten players.</p>
+<!-- <form class="payButton" action='checkout2.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form> -->
+
+<form class="payButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KMRG4V76WHR8Q">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+				<p>Priced at $10 per month.</p>
+			</div>
+			<div class="plans" id="plan3">
+				<div class="planBlock" id="planBlock3"></div>
+				<h4>3072MB</h4>
+				<p>This plan is for 3072 megabytes of server space and is recommended for ten to twenty players.</p>
+<!-- <form class="payButton" action='checkout3.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form> -->
+
+<form class="payButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ME3ZXU8XH2CKC">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+				<p>Priced at $15 per month.</p>
+			</div>
+			<div class="plans" id="plan4">
+				<div class="planBlock" id="planBlock4"></div>
+				<h4>4096MB</h4>
+				<p>This plan is for 4096 megabytes of server space and is recommended for twenty to thirty players.</p>
+<!-- <form class="payButton" action='checkout4.php' METHOD='POST'>
+	<input type='image' name='paypal_submit' id='paypal_submit'  src='https://www.paypal.com/en_US/i/btn/btn_dg_pay_w_paypal.gif' border='0' align='top' alt='Pay with PayPal'/>
+</form> -->
+
+<form class="payButton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JSF6Q79ZP5VZL">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+				<p>Priced at $20 per month.</p>
+			</div>
+	</div>
+	</div>
+	<!-- content for Support/Contact -->
+	<div id="chunkContact">
+		<div class="content">
+			<div class="contentBlock">
+				<h3>Please use the following contact form for any support or sale inquires:</h3><hr>
+				<form method="post" action="mailer.php">
+					<label for="name">Minecraft username:</label><br>
+					<input class="textInput" type="text" name="name" required="required">
+					<br><br>		
+					<label for="email">Email Address:</label><br>
+					<input class="textInput" type="email" name="email" required="required">
+					<br><br>
+					<label for="subject">Subject:</label><br>		
+					<textarea name="subject" required="required" rows="1" cols="55"></textarea>
+					<br>
+					<br>
+					<label for="message">Message Content:</label>
+					<br>
+					<textarea name="message" required="required" rows="15" cols="55" placeholder="Your message goes here"></textarea>
+					<br>
+					<input id="mySubmit" type="submit" value="Send Now">
+					<input id="myReset" type="reset" value="Reset">
+				</form>
+			</div>
+		</div>
+	</div>
 <!-- MAIN CONTENT BLOCK ENDS -->
 	<div id="feed">
 		<br /><br /><br />
@@ -58,5 +210,20 @@
         <script src="js/lib/backbone-min.js"></script>
         <!-- JavaScript main -->
         <script src="js/main.js"></script>
+	<!-- Add Digital goods in-context experience. Ensure that this script is added before the closing of html body tag -->
+
+<script src='https://www.paypalobjects.com/js/external/dg.js' type='text/javascript'></script>
+
+
+<script>
+
+	var dg = new PAYPAL.apps.DGFlow(
+	{
+		trigger: 'paypal_submit',
+		expType: 'instant'
+		 //PayPal will decide the experience type for the buyer based on his/her 'Remember me on your computer' option.
+	});
+
+</script>
 </body>
 </html>
